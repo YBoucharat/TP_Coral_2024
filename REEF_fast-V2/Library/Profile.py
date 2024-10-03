@@ -170,9 +170,8 @@ class Profile(plt.Figure):
                 
         # Stacking by ky
         self.subds = self.ds.isel(time=slice(None, None, self.nky), x=slice(None, None))
-        # if self.subds.time[-1] != self.ds.time[-1]:
-        #     # self.subds = xr.concat([self.subds, self.ds.isel(time = -1, x=x)], dim = 'time')
-        #     self.subds = xr.concat([self.subds, self.ds.isel(time = -1, x=self.ds.x.values)], dim = 'time')
+        if self.subds.time[-1] != self.ds.time[-1]:
+            self.subds = xr.concat([self.subds, self.ds.isel(time = -1, x=x)], dim = 'time')
 
         self.subds['sedky'] = xr.Variable(
             data = np.zeros((len(self.subds.time), len(self.subds.init__x))),

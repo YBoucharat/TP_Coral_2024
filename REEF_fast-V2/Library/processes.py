@@ -37,14 +37,14 @@ class SLFile:
     asl_in = xs.variable(dims='time[-1]', intent='out', description='interpolated elevations of paleoSL', attrs={'units':'m'})
     asl_file = xs.variable(dims='time', intent='out', groups='asl_vars')
 
-    def initialize(self, dt):
+    def initialize(self):
         
         dico = Dicos()
         
         age_in, self.asl_in = readfile(dico.path_SLcurves+self.RSLin)
     
         ###age_in, self.asl_in = readfile(dico.SL_files[self.RSLin])
-        self.t_in = np.arange(age_in[-1], age_in[0]+1, dt)*1000
+        self.t_in = np.arange(age_in[-1], age_in[0]+1)*1000
     
     @xs.runtime(args=('step_start'))
     def run_step(self, t):
