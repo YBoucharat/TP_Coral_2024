@@ -87,27 +87,27 @@ def apply_mask_nb(z_tmp, z_tmp_init, dS):
     return z_tmp
 
 
-# def FindKey(v, dic): 
-#     """
-#     Finds the key for a given value in a directory
+def FindKey(v, dic): 
+    """
+    Finds the key for a given value in a directory
     
-#     Parameters:
-#     -----------
+    Parameters:
+    -----------
     
-#     v : datatype as in the values of the dictionary...
-#         Value to look for
-#     dic : Dictionary
-#         Dictionary in which to look for
+    v : datatype as in the values of the dictionary...
+        Value to look for
+    dic : Dictionary
+        Dictionary in which to look for
         
-#     Returns:
-#     --------
+    Returns:
+    --------
     
-#     k: datatype as in the keys of the dictionary
-#         Key corresponding to the input value
-#     """
+    k: datatype as in the keys of the dictionary
+        Key corresponding to the input value
+    """
     
-#     for k, val in dic.items(): 
-#         if v == val: 
-#             return k 
+    for k, val in dic.items(): 
+        if v == val: 
+            return k 
 
 
