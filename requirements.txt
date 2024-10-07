@@ -7,4 +7,4 @@ xarray==2024.1.1
 xarray-simlab==0.5.0
 pythran
 numba
-
+scipy
