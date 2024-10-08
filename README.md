@@ -16,5 +16,5 @@ You can test the model easily on binder using the following link:
 Or git pull this repository. <br>
 Python libraries required for the model are given in requirements.txt. To install the environment (if not using binder), run `pip install -r requirements.txt`
 
-The code is available in the REEF folder. A step-by-step jupyter notebook, 'Run_REEF.ipynb', allows to get familiar with the code, with some exercices. REEF source code is in the Library folder.
+REEF model is available in the REEF folder, given with a step-by-step jupyter notebook, 'Run_REEF.ipynb', with some exercices. REEF source code is in the Library folder.
 
