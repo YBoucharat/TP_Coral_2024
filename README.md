@@ -1,7 +1,7 @@
 # TP coral reef dynamics
 
 ## Description 
-Here is given a coral reef construction kinematic model (new version of REEF; Husson et al., 2018; Pastier et al., 2019). 
+Here is given a coral reef construction model (new version of REEF; Husson et al., 2018; Pastier et al., 2019), considering past eustatic sea-level, reef growth, marine erosion and clastic sedimentation of the eroded materials, modelling on an initial linear slope.
 
 During this course, you will get familiar with a kinematic model of coastal dynamics implying wave erosion and coral growth.
 Kinematic? A model with an evolution according to a timestep
