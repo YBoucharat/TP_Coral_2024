@@ -15,15 +15,15 @@ You can test the model easily on binder using the following link :
 This is the easiest way as all the environment is already charged on binder, but if you quit the page, nothing will be saved. To save, you have to download the file, and upload it again. <br>
 
 ### For UGA students, you can install the model on gricad UGA :
-With this method, the installation is a bit longer (but really easy, just copy/paste the commands below), but every changes will be saved on your account.
+With this method, the installation is a bit longer (but really easy, just copy/paste the commands below), but every changes will be saved on your account.<br>
 Follow this link and log in with agalan : https://gricad-jupyter.univ-grenoble-alpes.fr/hub/login <br>
 Open a terminal window and go to notebooks folder : `cd notebooks` <br> 
 Git clone this repository : `git clone https://github.com/YBoucharat/TP_Coral_2024.git` <br>
-Go into the repository : `cd TP_Coral_2024`
+Go into the repository : `cd TP_Coral_2024`<br>
 Create a python virtual environment : `python -m venv TP_venv` (TP_venv will be the name of the virtual environment). <br>
 Activate it : `source TP_venv/bin/activate` <br>
-Install the libraries : `pip install -r requirements.txt`
-Install ipykernel : `pip install ipykernel`
+Install the libraries : `pip install -r requirements.txt` <br>
+Install ipykernel : `pip install ipykernel` <br>
 Add the environment to jupyter as a kernel : `python -m ipykernel install --user --name=TP_venv --display-name "Python (TP_venv)"`
 
 ### Git clone on your computer
