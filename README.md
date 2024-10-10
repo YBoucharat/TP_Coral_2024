@@ -1,4 +1,4 @@
-# TP coral reef dynamics
+# TP coral reef modelling
 
 ## Description 
 Here is given a coral reef construction model (new version of REEF; Husson et al., 2018; Pastier et al., 2019), considering past eustatic sea-level, reef growth, marine erosion and clastic sedimentation of the eroded materials, modelling on an initial linear slope.
